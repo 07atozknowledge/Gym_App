@@ -101,7 +101,7 @@ const About = () => {
             controls
             data-aos="zoom-in"
             data-aos-delay="200"
-            width={550}
+            width={400}
             height={400}
             url='https://www.youtube.com/watch?v=jNv7LM_VoJI'
           />
