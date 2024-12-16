@@ -96,7 +96,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="md:w-[50%] w-full h-fit relative">
+        <div className="md:w-[90%] w-full h-fit relative">
           <ReactPlayer 
             controls
             data-aos="zoom-in"
