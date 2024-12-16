@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* background: #fbfbfb; */
+  /* background: #f5f1f1; */
+
+  background: #faf9f6d8;
+  
+}
