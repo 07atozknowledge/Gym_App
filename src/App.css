@@ -21,11 +21,15 @@
   display: flex;
   gap: 50px;
   min-width: 500px;
-  max-width: 500px;
+  max-width: 1350px;
   color: whitesmoke;
+  
+  
 }
 .bmi .container .wrapper {
   flex: 1;
+  border:5px solid white;
+  padding: 0 25px;
 }
 .bmi .container .wrapper:last-child {
   overflow: hidden;

@@ -78,8 +78,8 @@ const BMICalculator = () => {
             <button type="submit">Calculate BMI</button>
           </form>
         </div>
-        <div >
-          <img src={bmi1} alt="bmiImage" width={500} height={500} className="rounded-lg"/>
+        <div className="mb-5" >
+          <img src={bmi1} alt="bmiImage" width={700} height={700} className="rounded-lg "/>
         </div>
       </div>
     </section>
