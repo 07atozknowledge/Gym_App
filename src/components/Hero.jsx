@@ -19,7 +19,7 @@ const Hero = () => {
 
         <h1 data-aos='zoom-in' data-aos-delay="200"  className=' text-blue-700 md:text-8xl text-6xl font-bold  text-center'>FITNESS CLASSES </h1>
 
-        <button data-aos='zoom-in' data-aos-delay="400"  className='px-8 py-4 bg-red-400 hover:bg-blue-600 text-white font-semibold cursor-pointer rounded-full'>BOOK NOW </button>    
+        <button data-aos='zoom-in' data-aos-delay="400"  className='px-8 py-4 bg-red-400 hover:bg-bbutton text-white font-semibold cursor-pointer rounded-full'>BOOK NOW </button>    
 
       </div>
 

@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      'bbutton': ' #572c57',
+      
+
+    }
   },
   plugins: [],
 }
