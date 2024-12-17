@@ -5,12 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-    colors: {
-      'bbutton': ' #572c57',
-      
-
-    }
+    extend: {
+      colors:{
+        hbutton:{
+          400:"#aa17f1",
+        }
+      }
+    },
+    
   },
   plugins: [],
 }

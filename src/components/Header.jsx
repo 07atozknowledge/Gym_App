@@ -32,9 +32,9 @@ const Header = () => {
     }
   ]
   return (
-    <nav className='w-full flex bg-black justify-between items-center gap-1 lg:px-a6 px-5 py-4 sticky top-0 z-50'>
-      <h2 className='text-white md:text-4xl text-3xl font-bold'>
-        Strong <span className='text-red-400 italic'>
+    <nav className='w-full flex bg-white justify-between items-center gap-1 lg:px-a6 px-5 py-4 sticky top-0 z-50'>
+      <h2 className='text-black md:text-4xl text-3xl font-bold'>
+        Strong <span className='text-hbutton-400 italic'>
           Zone
         </span>
       </h2>
@@ -43,14 +43,14 @@ const Header = () => {
 
             {
               navItems?.map(({link,path}) => (
-                <Link key={path} className='text-red-300 uppercase font-semibold cursor-pointer  rounded-lg hover:bg-red-400 hover:text-white px-7 py-2' to={path} spy={true} offset={-100} smooth={true}>
+                <Link key={path} className='text-hbutton-400 uppercase font-semibold cursor-pointer  rounded-lg hover:bg-red-400 hover:text-white px-7 py-2' to={path} spy={true} offset={-100} smooth={true}>
                     {link}
                 </Link>
               ))
             }
       </ul>
 
-      <button className='bg-red-400 hover:bg-blue-600 text-white px-10 py-3 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden'>
+      <button className='bg-hbutton-400 hover:bg-red-400 text-white px-10 py-3 rounded-full font-bold transform hover:scale-105 transition-transform duration-300 cursor-pointer md:flex hidden'>
         SignUp
       </button>
              

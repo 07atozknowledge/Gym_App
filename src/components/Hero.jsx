@@ -17,9 +17,9 @@ const Hero = () => {
       <div className='md:pl-56 flex flex-col justify-center items-center md:gap10 gap-6 p-10'>
         <h1 data-aos='zoom-in' className='text-2xl uppercase font-regular text-slate-700 text-center'>STRONG ZONE CLUB</h1>
 
-        <h1 data-aos='zoom-in' data-aos-delay="200"  className=' text-blue-700 md:text-8xl text-6xl font-bold  text-center'>FITNESS CLASSES </h1>
+        <h1 data-aos='zoom-in' data-aos-delay="200"  className=' text-black md:text-8xl text-6xl font-bold  text-center'>FITNESS CLASSES </h1>
 
-        <button data-aos='zoom-in' data-aos-delay="400"  className='px-8 py-4 bg-red-400 hover:bg-bbutton text-white font-semibold cursor-pointer rounded-full'>BOOK NOW </button>    
+        <button data-aos='zoom-in' data-aos-delay="400"  className=' px-8 py-4 bg-hbutton-400 text-white font-semibold cursor-pointer rounded-full' >BOOK NOW </button>    
 
       </div>
 

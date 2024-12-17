@@ -49,14 +49,14 @@ const Team = () => {
       <div className='flex flex-col justify-center items-center gap-8'>
 
         <h2 className='text-5xl text-red-400 font-extralight text-center '>
-          OUR PERFECT <span className='font-bold'>TEAM</span>
+          OUR PERFECT <span className='font-bold text-hbutton-400'>TEAM</span>
           
         </h2>
         <p data-aos='zoom-in' data-aos-delay='400' className='text-center text-lg'>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, iure.
 
         </p>
-        <button data-aos='zoom-in' data-aos-delay='600' className='px-6 py-3 border-2 border-black  text-black font-semibold rounded-full hover:bg-red-400 hover:text-white' >
+        <button data-aos='zoom-in' data-aos-delay='600' className='px-6 py-3 border-2 border-black  text-black font-semibold rounded-full hover:bg-hbutton-400 hover:border-white hover:text-white' >
           VIEW MORE
         </button>
 

@@ -18,7 +18,7 @@ const Contact = () => {
   });
   return (
     <>
-      <section id="contact" className="w-full bg-red-400 py-20 z-10 mt-1">
+      <section id="contact" className="w-full bg-hbutton-400 py-20 z-10 mt-1">
         <h2
           data-aos="zoom-in"
           data-aos-delay="200"
@@ -50,17 +50,17 @@ const Contact = () => {
       <section>
         
 
-        <div className="w-full flex flex-col justify-center items-center gap-2 bg-blue-600 h-fit pb-20">
+        <div className="w-full flex flex-col justify-center items-center gap-2 bg-red-400 h-fit pb-20">
           <div className="md:w-[85%] w-full mx-auto grid md:grid-cols-3 grid-cols-1 justify-center items-center md:gap-20 gap-10 md:p-20 p-10 mt-[-200px] z-20">
             <div
               data-aos="zoom-in"
               data-aos-delay="400"
               className="p-10 bg-slate-200 flex flex-col justify-center items-center gap-4 "
             >
-              <div className="border-2 border-slate-400 rounded-full p-4 transform hover:scale-105 tranistion-transform duration-300 cursor-pointer">
-                <FaMapMarkedAlt className="size-10 text-slate-400 " />
+              <div className="border-2 border-black rounded-full p-4 transform hover:scale-105 tranistion-transform duration-300 cursor-pointer">
+                <FaMapMarkedAlt className="size-10 text-black " />
               </div>
-              <h2 className="text-2xl text-slate-500">Address</h2>
+              <h2 className="text-2xl text-black"><b>Address</b></h2>
               <p className="text-center text-lg">college street , kolkata</p>
             </div>
 
@@ -69,10 +69,10 @@ const Contact = () => {
               data-aos-delay="400"
               className="p-10  bg-slate-200 flex flex-col justify-center items-center gap-4 "
             >
-              <div className="border-2 border-slate-400 rounded-full p-4 transform hover:scale-105 tranistion-transform duration-300 cursor-pointer">
-                <IoMdMail className="size-10 text-slate-400 " />
+              <div className="border-2 border-black rounded-full p-4 transform hover:scale-105 tranistion-transform duration-300 cursor-pointer">
+                <IoMdMail className="size-10 text-black" />
               </div>
-              <h2 className="text-2xl text-slate-500">Mail</h2>
+              <h2 className="text-2xl text-black"><b>Mail</b></h2>
               <p className="text-center text-lg">AKD@gmail.com</p>
             </div>
 
@@ -81,15 +81,16 @@ const Contact = () => {
               data-aos-delay="400"
               className="p-10 bg-slate-200 flex flex-col justify-center items-center gap-4 "
             >
-              <div className="border-2 border-slate-400 rounded-full p-4 transform hover:scale-105 tranistion-transform duration-300 cursor-pointer">
-                <FaMapMarkedAlt className="size-10 text-slate-400 " />
+              <div className="border-2 border-black rounded-full p-4 transform hover:scale-105 tranistion-transform duration-300 cursor-pointer">
+                <FaMapMarkedAlt className="size-10 text-black " />
               </div>
-              <h2 className="text-2xl text-slate-500">Call Us</h2>
+              <h2 className="text-2xl text-black"><b>Call Us</b></h2>
               <p className="text-center text-lg">(+91) 3216549871</p>
             </div>
           </div>
 
-          <button className="px-6 py-3  bg-red-400  text-white font-semibold rounded-full ">
+          <button className="px-6 py-3  bg-black
+            text-white font-semibold rounded-full ">
             VIEW MORE
           </button>
         </div>

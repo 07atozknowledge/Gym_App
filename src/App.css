@@ -1,3 +1,24 @@
+/* .pbutton:hover{
+  
+    background-color: #572c57
+
+    sing pink
+    hover #aa17f1
+
+    nav shadow #d8dafb
+
+
+  
+} */
+
+nav {
+  box-shadow: 0 2px 4px 0 #d8dafb;
+}
+
+
+.fit{
+  color:  #f6ea98;
+}
 
 .bmi {
   display: flex;
@@ -74,7 +95,7 @@
   font-size: 22px;
   font-weight: 500;
   color: #fff;
-  background:  #3065f5;
+  background:  black;
   border-radius: 4px;
 }
 @media (max-width: 1520px) {

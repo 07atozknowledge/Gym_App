@@ -27,7 +27,7 @@ const About = () => {
           <h1
             data-aos="zoom-in"
             data-aos-delay=""
-            className="text-red-400 md:text-7xl text-6xl font-semibold"
+            className="text-black md:text-7xl text-6xl font-semibold"
           >
             JOIN NOW
           </h1>
@@ -43,7 +43,7 @@ const About = () => {
           <button
             data-aos="zoom-in"
             data-aos-delay="600"
-            className="px-8 py-4 bg-blue-600 hover:bg-red-400 text-white font-semibold cursor-pointer rounded-full"
+            className="px-8 py-4 bg-hbutton-400 hover:bg-red-400 text-white font-semibold cursor-pointer rounded-full"
           >
             BOOK NOW{" "}
           </button>
@@ -108,7 +108,7 @@ const About = () => {
           <div
             data-aos="slide-up"
             data-aos-delay="400"
-            className="bg-red-400 md:w-[90%] w-full text-white flex flex-col justify-center items-start gap-4 md:p-8 p-6 absolute md:-left[-100px] md:right-[-100px] md:bottom-[-180px] mt-8 z-10 mb-5"
+            className="bg-hbutton-400 md:w-[90%] w-full text-white flex flex-col justify-center items-start gap-4 md:p-8 p-6 absolute md:-left[-100px] md:right-[-100px] md:bottom-[-180px] mt-8 z-10 mb-5"
           >
             <FaQuoteLeft className="md:size-14 size-10" />
 

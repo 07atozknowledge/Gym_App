@@ -27,12 +27,12 @@ const Service = () => {
         </h1>
       </section>
       <section >
-        <div className="w-full flex flex-col justify-center items-center bg-blue-700 h-fit">
-          <div className="md:w-[85%] w-full mx-auto flex md:flex-row flex-col justify-center items-start md:gap-6 gap-20 md:p-20 p-10 mt-[-200px] z-20">
+        <div className="w-full flex flex-col justify-center items-center bg-hbutton-400 h-fit">
+          <div className="md:w-[85%] w-full mx-auto flex md:flex-row flex-col justify-center items-center md:gap-6 gap-20 md:p-20 p-10 mt-[-200px] z-20">
             <div data-aos='slide-up' data-aos-delay='400'
             className="flex flex-col justify-center items-center gap-6">
-              <img src={phil1} alt="service image" width={300} height={300} className="md:hover:opacity-55 cursor-pointer" />
-              <h2 className="text-4xl text-white font-semibold">Bodybuilding</h2>
+              <img src={phil1} alt="service image" width={300} height={300} className="" />
+              <h2 className="text-4xl text-black font-semibold">Bodybuilding</h2>
 
               <p className="text-lg text-slate-300 text-center">
                   Lorem ipsum dolor sit amet.
@@ -45,8 +45,8 @@ const Service = () => {
 
             <div data-aos='slide-up' data-aos-delay='400'
             className="flex flex-col justify-center items-center gap-6">
-              <img src={phil2} alt="service image" width={300} height={300} className="md:hover:opacity-55 cursor-pointer" />
-              <h2 className="text-4xl text-white font-semibold">Weight Lifting </h2>
+              <img src={phil2} alt="service image" width={300} height={300} className="" />
+              <h2 className="text-4xl text-black font-semibold">Weight Lifting </h2>
 
               <p className="text-lg text-slate-300 text-center">
                   Lorem ipsum dolor sit amet.
@@ -59,8 +59,8 @@ const Service = () => {
 
             <div data-aos='slide-up' data-aos-delay='400'
             className="flex flex-col justify-center items-center gap-6">
-              <img src={phil3} alt="service image" width={300} height={300} className="md:hover:opacity-55 cursor-pointer" />
-              <h2 className="text-4xl text-white font-semibold">Cardio classes</h2>
+              <img src={phil3} alt="service image" width={300} height={300} className="" />
+              <h2 className="text-4xl text-black font-semibold">Cardio classes</h2>
 
               <p className="text-lg text-slate-300 text-center">
                   Lorem ipsum dolor sit amet.
