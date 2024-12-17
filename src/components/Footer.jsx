@@ -13,7 +13,7 @@ const Footer = () => {
 
     {/* scroll top button */}
 
-    <div id='icon-box' className='bg-red-400 text-black p-3 rounded-full hover:bg-white cursor-pointer fixed lg:bottom-6 right-6 bottom-6 z-40'>
+    <div id='icon-box' className='bg-white text-black p-3 rounded-full  cursor-pointer fixed lg:bottom-6 right-6 bottom-6 z-40'>
 
       <Link to='hero' spy={true} offset={-100} smooth={true}>
         <FaArrowUp className='w-[35px] h-[35px]' />
