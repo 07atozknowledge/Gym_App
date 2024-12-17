@@ -34,11 +34,11 @@ const Service = () => {
               <img src={phil1} alt="service image" width={300} height={300} className="" />
               <h2 className="text-4xl text-black font-semibold">Bodybuilding</h2>
 
-              <p className="text-lg text-slate-300 text-center">
+              <p className="text-lg text-slate-950 text-center">
                   Lorem ipsum dolor sit amet.
               </p>
 
-              <button className="px-6 py-3 bg-red-400 text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer rounded-full">
+              <button className="px-6 py-3 bg-black text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer rounded-full">
                 VIEW MORE
               </button>
             </div>
@@ -48,11 +48,11 @@ const Service = () => {
               <img src={phil2} alt="service image" width={300} height={300} className="" />
               <h2 className="text-4xl text-black font-semibold">Weight Lifting </h2>
 
-              <p className="text-lg text-slate-300 text-center">
+              <p className="text-lg text-slate-950 text-center">
                   Lorem ipsum dolor sit amet.
               </p>
 
-              <button className="px-6 py-3 bg-red-400 text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer rounded-full">
+              <button className="px-6 py-3 bg-black text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer rounded-full">
                 VIEW MORE
               </button>
             </div>
@@ -62,11 +62,11 @@ const Service = () => {
               <img src={phil3} alt="service image" width={300} height={300} className="" />
               <h2 className="text-4xl text-black font-semibold">Cardio classes</h2>
 
-              <p className="text-lg text-slate-300 text-center">
+              <p className="text-lg text-slate-950 text-center">
                   Lorem ipsum dolor sit amet.
               </p>
 
-              <button className="px-6 py-3 bg-red-400 text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer rounded-full">
+              <button className="px-6 py-3 bg-black text-white font-semibold transform hover:scale-105 transition-transform duration-300 cursor-pointer rounded-full">
                 VIEW MORE
               </button>
             </div>
